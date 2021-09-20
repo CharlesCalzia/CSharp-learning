@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chcal\\OneDrive\\Documents\\GitHub\\CSharp-learning\\iterationExercises\\IterationExercises\\IterationExercises.csproj": {}
+    "C:\\Users\\chcal\\Desktop\\Csharp-intro\\Csharp-intro\\Csharp-intro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chcal\\OneDrive\\Documents\\GitHub\\CSharp-learning\\iterationExercises\\IterationExercises\\IterationExercises.csproj": {
+    "C:\\Users\\chcal\\Desktop\\Csharp-intro\\Csharp-intro\\Csharp-intro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chcal\\OneDrive\\Documents\\GitHub\\CSharp-learning\\iterationExercises\\IterationExercises\\IterationExercises.csproj",
-        "projectName": "IterationExercises",
-        "projectPath": "C:\\Users\\chcal\\OneDrive\\Documents\\GitHub\\CSharp-learning\\iterationExercises\\IterationExercises\\IterationExercises.csproj",
+        "projectUniqueName": "C:\\Users\\chcal\\Desktop\\Csharp-intro\\Csharp-intro\\Csharp-intro.csproj",
+        "projectName": "Csharp-intro",
+        "projectPath": "C:\\Users\\chcal\\Desktop\\Csharp-intro\\Csharp-intro\\Csharp-intro.csproj",
         "packagesPath": "C:\\Users\\chcal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chcal\\OneDrive\\Documents\\GitHub\\CSharp-learning\\iterationExercises\\IterationExercises\\obj\\",
+        "outputPath": "C:\\Users\\chcal\\Desktop\\Csharp-intro\\Csharp-intro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chcal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",

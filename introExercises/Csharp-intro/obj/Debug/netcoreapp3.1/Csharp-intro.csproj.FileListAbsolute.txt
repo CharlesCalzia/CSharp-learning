@@ -1,0 +1,13 @@
+C:\Users\chcal\Desktop\Csharp-intro\Csharp-intro\bin\Debug\netcoreapp3.1\Csharp-intro.exe
+C:\Users\chcal\Desktop\Csharp-intro\Csharp-intro\bin\Debug\netcoreapp3.1\Csharp-intro.deps.json
+C:\Users\chcal\Desktop\Csharp-intro\Csharp-intro\bin\Debug\netcoreapp3.1\Csharp-intro.runtimeconfig.json
+C:\Users\chcal\Desktop\Csharp-intro\Csharp-intro\bin\Debug\netcoreapp3.1\Csharp-intro.runtimeconfig.dev.json
+C:\Users\chcal\Desktop\Csharp-intro\Csharp-intro\bin\Debug\netcoreapp3.1\Csharp-intro.dll
+C:\Users\chcal\Desktop\Csharp-intro\Csharp-intro\bin\Debug\netcoreapp3.1\Csharp-intro.pdb
+C:\Users\chcal\Desktop\Csharp-intro\Csharp-intro\obj\Debug\netcoreapp3.1\Csharp-intro.csprojAssemblyReference.cache
+C:\Users\chcal\Desktop\Csharp-intro\Csharp-intro\obj\Debug\netcoreapp3.1\Csharp-intro.AssemblyInfoInputs.cache
+C:\Users\chcal\Desktop\Csharp-intro\Csharp-intro\obj\Debug\netcoreapp3.1\Csharp-intro.AssemblyInfo.cs
+C:\Users\chcal\Desktop\Csharp-intro\Csharp-intro\obj\Debug\netcoreapp3.1\Csharp-intro.csproj.CoreCompileInputs.cache
+C:\Users\chcal\Desktop\Csharp-intro\Csharp-intro\obj\Debug\netcoreapp3.1\Csharp-intro.dll
+C:\Users\chcal\Desktop\Csharp-intro\Csharp-intro\obj\Debug\netcoreapp3.1\Csharp-intro.pdb
+C:\Users\chcal\Desktop\Csharp-intro\Csharp-intro\obj\Debug\netcoreapp3.1\Csharp-intro.genruntimeconfig.cache
