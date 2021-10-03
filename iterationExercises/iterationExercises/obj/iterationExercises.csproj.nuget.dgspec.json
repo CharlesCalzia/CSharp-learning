@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chcal\\source\\repos\\iterationExercises\\iterationExercises\\iterationExercises.csproj": {}
+    "C:\\Users\\chcal\\OneDrive\\Documents\\GitHub\\CSharp-learning\\iterationExercises\\iterationExercises\\iterationExercises.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chcal\\source\\repos\\iterationExercises\\iterationExercises\\iterationExercises.csproj": {
+    "C:\\Users\\chcal\\OneDrive\\Documents\\GitHub\\CSharp-learning\\iterationExercises\\iterationExercises\\iterationExercises.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chcal\\source\\repos\\iterationExercises\\iterationExercises\\iterationExercises.csproj",
+        "projectUniqueName": "C:\\Users\\chcal\\OneDrive\\Documents\\GitHub\\CSharp-learning\\iterationExercises\\iterationExercises\\iterationExercises.csproj",
         "projectName": "iterationExercises",
-        "projectPath": "C:\\Users\\chcal\\source\\repos\\iterationExercises\\iterationExercises\\iterationExercises.csproj",
+        "projectPath": "C:\\Users\\chcal\\OneDrive\\Documents\\GitHub\\CSharp-learning\\iterationExercises\\iterationExercises\\iterationExercises.csproj",
         "packagesPath": "C:\\Users\\chcal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chcal\\source\\repos\\iterationExercises\\iterationExercises\\obj\\",
+        "outputPath": "C:\\Users\\chcal\\OneDrive\\Documents\\GitHub\\CSharp-learning\\iterationExercises\\iterationExercises\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chcal\\AppData\\Roaming\\NuGet\\NuGet.Config",
