@@ -41,10 +41,20 @@ namespace listExercises
             Debug.Assert(sumTo(nums, negatives, -10)==true);
             Debug.Assert(sumTo(nums, negatives, -12) == false);
 
+            
 
-            Debug.Assert(listEqual(generatePrimes(8),primes1)==true);
-            Debug.Assert(listEqual(generatePrimes(50), primes2) == true);
-            Debug.Assert(listEqual(generatePrimes(50), binarySearchList2) == false);
+            var start = DateTime.Now;
+            fastPrimeGenerator(10000);
+            TimeSpan delta = DateTime.Now - start;
+            Double ms = delta.TotalMilliseconds;
+            Console.WriteLine($"{ms}ms");
+
+            // Results (for non sieve algorithm) when ran the fastPrimeGenerator algorithm (on my laptop):
+            // 10,000 in 14ms
+            // 100,000 in 27ms
+            // 1,000,000 in 238ms
+            // 10,000,000 in 5342ms
+            // 100,000,000 in 72358ms
         }
         static int Sum(List <int> list)
         {
@@ -168,7 +178,7 @@ namespace listExercises
             return false;
         }
 
-        static List<int> generatePrimes(int n)
+        static List<int> sievePrimes(int n)
         // Uses sieve of Eratosthenes (https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes), a very efficient algorithm for generating primes up to n
         // Runs in O(n log n) time
         // Worst case: low numbers of n will have a higher distribution of primes, meaning that it will take slightly longer relative to the size of n
@@ -176,27 +186,59 @@ namespace listExercises
         // This algorithm will have a difficult time running on small processors when n is very large, as it requires a long list of numbers up to n
         // This algorithm is also pretty computationally intensive (for large values of n) as there are many numbers to divide by
         {
-            List<int> nums = Enumerable.Range(2, n).Select(i => (int)i).ToList();
-            List<int> primes = new List<int>();
-            while (nums.Count!=0)
+            List<int> nums = Enumerable.Range(2, n-1).ToList();
+            int currentInd = 0;
+            int current;
+            int count = n - 1;
+            while (currentInd < count)
             {
-                int current = nums[0];
-                nums.RemoveAt(0);
-                primes.Add(current);
+                current = nums[currentInd];
+
                 while (true)
                 {
                     bool breakFor = false;
-                    for (int i = 0; i < nums.Count; i++)
+                    for (int i = currentInd+1; i < count; i++)
                     {
                         if (nums[i] % current == 0)
                         {
                             nums.RemoveAt(i);
                             breakFor = true;
+                            count--;
                             break;
                         }
                     }
                     if (!breakFor) break;
                 }
+                currentInd += 1;
+            }
+            return nums;
+        }
+
+        static List<int> fastPrimeGenerator(int n)
+        {
+            List<int> primes = new List<int>() { 2, 3 };
+            
+            for(int num=5; num<=n; num += 2)
+            {
+                int maxNum =(int)Math.Sqrt((double)num);
+                bool isPrime = true;
+                foreach (int i in primes)
+                {
+                    if (i > maxNum)
+                    {
+                        break;
+                    }
+                    if (num%i==0)
+                    {
+                        isPrime = false;
+                        break;
+                    }
+                }
+                if (isPrime)
+                {
+                    primes.Add(num);
+                }
+
             }
             return primes;
         }
