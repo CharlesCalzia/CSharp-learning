@@ -44,7 +44,7 @@ namespace listExercises
             
 
             var start = DateTime.Now;
-            fastPrimeGenerator(10000);
+            fastPrimeGenerator(10000000);
             TimeSpan delta = DateTime.Now - start;
             Double ms = delta.TotalMilliseconds;
             Console.WriteLine($"{ms}ms");
